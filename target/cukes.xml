@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="52.711">
+    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the first slider" time="8.847">
+        <failure message="first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on first control dot........................................passed
+Then user could click on first slider.......................................passed
+And validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider".failed
+
+StackTrace:
+java.lang.AssertionError: first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at ✽.validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:8)
+]]></failure>
+    </testcase>
+    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the second slider" time="10.106">
+        <failure message="second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on second control dot.......................................passed
+Then user could click on second slider......................................passed
+And validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider".failed
+
+StackTrace:
+java.lang.AssertionError: second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at ✽.validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="7.753">
+        <system-out><![CDATA[When user opens facebook link...............................................passed
+Then "https://www.facebook.com/nopCommerce" is opened in new tab............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="9.52">
+        <system-out><![CDATA[When user opens twitter link................................................passed
+Then "https://twitter.com/nopCommerce" is opened in new tab.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="7.814">
+        <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When user opens rss link....................................................passed
+Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab.failed
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:38)
+	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F07_FollowUs.feature:15)
+]]></failure>
+    </testcase>
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="8.443">
+        <system-out><![CDATA[When user opens youtube link................................................passed
+Then "https://www.youtube.com/user/nopCommerce" is opened in new tab........passed
+]]></system-out>
+    </testcase>
+</testsuite>

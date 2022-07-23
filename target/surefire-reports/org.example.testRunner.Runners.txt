@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.Runners
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 54.166 s <<< FAILURE! - in org.example.testRunner.Runners
+org.example.testRunner.Runners.runScenario["user redirect to correct page of the first slider", "F06_HomeSliders | user could redirect to correct URL"](1)  Time elapsed: 8.93 s  <<< FAILURE!
+java.lang.AssertionError: first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at ✽.validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:8)
+
+org.example.testRunner.Runners.runScenario["user redirect to correct page of the second slider", "F06_HomeSliders | user could redirect to correct URL"](2)  Time elapsed: 10.117 s  <<< FAILURE!
+java.lang.AssertionError: second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at ✽.validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:13)
+
+org.example.testRunner.Runners.runScenario["user opens rss link", "F07_FollowUs | users could open followUs links"](5)  Time elapsed: 7.827 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:38)
+	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F07_FollowUs.feature:15)
+
