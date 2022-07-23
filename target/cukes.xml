@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="52.711">
-    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the first slider" time="8.847">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="115.044">
+    <testcase classname="F01_Register | users could register with new accounts" name="guest user could register with valid data successfully" time="8.664">
+        <system-out><![CDATA[Given user go to register page..............................................passed
+When user select gender type................................................passed
+And user enter first name "Mustafa2" and last name "Amr2"...................passed
+Then user enter date of birth...............................................passed
+And user enter email field "mustafa2@mail.com"..............................passed
+And user fills Password fields "12345600" "12345600"........................passed
+Then user clicks on register button.........................................passed
+And success message is displayed............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F02_Login | users could use login functionality to use their accounts" name="user could login with valid email and password" time="5.712">
+        <system-out><![CDATA[Given user go to login page.................................................passed
+When user login with valid "mustafa2@mail.com" and "12345600"...............passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F02_Login | users could use login functionality to use their accounts" name="user could login with invalid email and password" time="5.261">
+        <system-out><![CDATA[Given user go to login page.................................................passed
+When user login with invalid "t@test.com" and "123456"......................passed
+And user press on login button..............................................passed
+Then user could not login to the system.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F03_Currencies | user could change currency shown on the website" name="user change currency to euro" time="5.161">
+        <system-out><![CDATA[Given user select euro currency.............................................passed
+Then user verify Euro Symbol is shown on price..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product name" time="4.736">
+        <system-out><![CDATA[Given user type book on search bar to search for product name...............passed
+And click search button.....................................................passed
+Then validate count of products appeared....................................passed
+And validate containing searched book.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product name 2" time="4.547">
+        <system-out><![CDATA[Given user type laptop on search bar to search for product name.............passed
+And click search button.....................................................passed
+Then validate count of products appeared....................................passed
+And validate containing searched laptop.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product name 3" time="4.633">
+        <system-out><![CDATA[Given user type nike on search bar to search for product name...............passed
+And click search button.....................................................passed
+Then validate count of products appeared....................................passed
+And validate containing searched nike.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product sku" time="6.104">
+        <system-out><![CDATA[Given user type SCI_FAITH on search bar to search for product sku...........passed
+And click search button.....................................................passed
+Then click on product appeared in search results............................passed
+And validate appeared product with searched SCI_FAITH.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product sku 2" time="5.911">
+        <system-out><![CDATA[Given user type APPLE_CAM on search bar to search for product sku...........passed
+And click search button.....................................................passed
+Then click on product appeared in search results............................passed
+And validate appeared product with searched APPLE_CAM.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F04_Search | user could search using product name &amp; sku" name="user could search for product using product sku 3" time="7.598">
+        <system-out><![CDATA[Given user type SF_PRO_11 on search bar to search for product sku...........passed
+And click search button.....................................................passed
+Then click on product appeared in search results............................passed
+And validate appeared product with searched SF_PRO_11.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F05_HoverCategories | user could hover and select categories &amp; subcategories" name="user could hover category &amp; select subcategory from it" time="5.61">
+        <system-out><![CDATA[Given user could hover on category list.....................................passed
+Then user click on subcategory..............................................passed
+And validate subcategory name on title page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the first slider" time="6.853">
         <failure message="first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on first control dot........................................passed
 Then user could click on first slider.......................................passed
 And validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider".failed
@@ -12,11 +90,11 @@ java.lang.AssertionError: first slider expected [https://demo.nopcommerce.com/no
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:8)
 ]]></failure>
     </testcase>
-    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the second slider" time="10.106">
+    <testcase classname="F06_HomeSliders | user could redirect to correct URL" name="user redirect to correct page of the second slider" time="6.333">
         <failure message="second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on second control dot.......................................passed
 Then user could click on second slider......................................passed
 And validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider".failed
@@ -28,21 +106,21 @@ java.lang.AssertionError: second slider expected [https://demo.nopcommerce.com/i
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:13)
 ]]></failure>
     </testcase>
-    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="7.753">
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="5.666">
         <system-out><![CDATA[When user opens facebook link...............................................passed
 Then "https://www.facebook.com/nopCommerce" is opened in new tab............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="9.52">
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="8.709">
         <system-out><![CDATA[When user opens twitter link................................................passed
 Then "https://twitter.com/nopCommerce" is opened in new tab.................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="7.814">
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="6.111">
         <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When user opens rss link....................................................passed
 Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab.failed
 
@@ -53,13 +131,24 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:38)
+	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:37)
 	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F07_FollowUs.feature:15)
 ]]></failure>
     </testcase>
-    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="8.443">
+    <testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="7.56">
         <system-out><![CDATA[When user opens youtube link................................................passed
 Then "https://www.youtube.com/user/nopCommerce" is opened in new tab........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F08_Wishlist | users could add to wishlist and count" name="user could add to wishlist" time="4.62">
+        <system-out><![CDATA[When user click on wishlist button on product...............................passed
+Then validate success message and background color..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F08_Wishlist | users could add to wishlist and count" name="user could add to wishlist and check quantity of it" time="4.948">
+        <system-out><![CDATA[When user click on wishlist button on product...............................passed
+Then user open wishlist page................................................passed
+And validate quantity is bigger than 0......................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

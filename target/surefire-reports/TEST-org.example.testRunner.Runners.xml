@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.Runners" time="54.166" tests="6" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.Runners" time="116.465" tests="19" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Yodawy\IdeaProjects\DemoNopCommerce\src\main\resources\browsers\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Yodawy\AppData\Local\Temp\surefire7606473053000972168\surefirebooter238559991565836344.jar C:\Users\Yodawy\AppData\Local\Temp\surefire7606473053000972168 2022-07-23T03-32-36_100-jvmRun1 surefire9875036527450784022tmp surefire_010657687060856016597tmp"/>
+    <property name="sun.java.command" value="C:\Users\Yodawy\AppData\Local\Temp\surefire11841763771262552464\surefirebooter6138631395487379244.jar C:\Users\Yodawy\AppData\Local\Temp\surefire11841763771262552464 2022-07-23T21-26-27_505-jvmRun1 surefire5989663733028770951tmp surefire_04803775822023404671tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Yodawy\IdeaProjects\DemoNopCommerce\target\test-classes;C:\Users\Yodawy\IdeaProjects\DemoNopCommerce\target\classes;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Yodawy\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Yodawy\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Yodawy\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Yodawy\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Yodawy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Yodawy\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Yodawy\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Yodawy\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\Yodawy\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\Yodawy\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Yodawy\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Yodawy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Yodawy\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Yodawy\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Yodawy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Yodawy\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Yodawy\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Yodawy\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\Yodawy\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\Yodawy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\Yodawy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Yodawy\.m2\repository\io\cucumber\cucumber-testng\7.4.1\cucumber-testng-7.4.1.jar;C:\Users\Yodawy\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\Yodawy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Yodawy\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Yodawy\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Yodawy\AppData\Local\Temp\surefire7606473053000972168\surefirebooter238559991565836344.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Yodawy\AppData\Local\Temp\surefire11841763771262552464\surefirebooter6138631395487379244.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -44,7 +44,7 @@
     <property name="localRepository" value="C:\Users\Yodawy\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Yodawy\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2022.1.3"/>
+    <property name="idea.version" value="2022.1.4"/>
     <property name="java.version" value="18.0.1.1"/>
     <property name="user.dir" value="C:\Users\Yodawy\IdeaProjects\DemoNopCommerce"/>
     <property name="os.arch" value="amd64"/>
@@ -58,18 +58,241 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="runScenario[&quot;user redirect to correct page of the first slider&quot;, &quot;F06_HomeSliders | user could redirect to correct URL&quot;](1)" classname="org.example.testRunner.Runners" time="8.93">
+  <testcase name="runScenario[&quot;guest user could register with valid data successfully&quot;, &quot;F01_Register | users could register with new accounts&quot;](1)" classname="org.example.testRunner.Runners" time="8.726">
+    <system-out><![CDATA[
+@smoke
+Scenario: guest user could register with valid data successfully &amp#27;[90m# src/main/resources/features/F01_Register.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to register page&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.openRegisterPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser select gender type&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.selectGender()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter first name "&amp#27;[0m&amp#27;[32m&amp#27;[1mMustafa2&amp#27;[0m&amp#27;[32m" and last name "&amp#27;[0m&amp#27;[32m&amp#27;[1mAmr2&amp#27;[0m&amp#27;[32m"&amp#27;[0m      &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enterName(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser enter date of birth&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enterBirthdate()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter email field "&amp#27;[0m&amp#27;[32m&amp#27;[1mmustafa2@mail.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enterMail(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills Password fields "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345600&amp#27;[0m&amp#27;[32m" "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345600&amp#27;[0m&amp#27;[32m"&amp#27;[0m           &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.enterPasswords(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on register button&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.clickRegisterBtn()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msuccess message is displayed&amp#27;[0m                               &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.doAssert()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60133
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could login with valid email and password&quot;, &quot;F02_Login | users could use login functionality to use their accounts&quot;](2)" classname="org.example.testRunner.Runners" time="5.737">
+    <system-out><![CDATA[
+@smoke
+Scenario: user could login with valid email and password        &amp#27;[90m# src/main/resources/features/F02_Login.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to login page&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.openLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login with valid "&amp#27;[0m&amp#27;[32m&amp#27;[1mmustafa2@mail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m12345600&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.loginWithValidData(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser press on login button&amp#27;[0m                                &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.clickLoginBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login to the system successfully&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.doAssertSuccess()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58906
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could login with invalid email and password&quot;, &quot;F02_Login | users could use login functionality to use their accounts&quot;](3)" classname="org.example.testRunner.Runners" time="5.268">
+    <system-out><![CDATA[
+@smoke
+Scenario: user could login with invalid email and password &amp#27;[90m# src/main/resources/features/F02_Login.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to login page&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.openLoginPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login with invalid "&amp#27;[0m&amp#27;[32m&amp#27;[1mt@test.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m&amp#27;[32m"&amp#27;[0m   &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.loginWithInvalidData(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser press on login button&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.clickLoginBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could not login to the system&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D02_loginStepDef.doAssertFailed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58679
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user change currency to euro&quot;, &quot;F03_Currencies | user could change currency shown on the website&quot;](4)" classname="org.example.testRunner.Runners" time="5.169">
+    <system-out><![CDATA[
+@smoke
+Scenario: user change currency to euro           &amp#27;[90m# src/main/resources/features/F03_Currencies.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser select euro currency&amp#27;[0m                &amp#27;[90m# org.example.stepDefs.D03_currenciesStepDef.selectEuro()&amp#27;[0m
+€1032.00
+€1548.00
+€210.70
+€21.50
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify Euro Symbol is shown on price&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D03_currenciesStepDef.verifySymbol()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62017
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product name&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](5)" classname="org.example.testRunner.Runners" time="4.749">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mbook&amp#27;[0m&amp#27;[32m on search bar to search for product name&amp#27;[0m    &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                          &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+4
+4
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate count of products appeared&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateCount()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate containing searched &amp#27;[0m&amp#27;[32m&amp#27;[1mbook&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateKeyword(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64074
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product name&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](6)" classname="org.example.testRunner.Runners" time="4.555">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m&amp#27;[32m on search bar to search for product name&amp#27;[0m  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                          &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+2
+2
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate count of products appeared&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateCount()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate containing searched &amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateKeyword(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57551
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:26:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:26:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product name&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](7)" classname="org.example.testRunner.Runners" time="4.64">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mnike&amp#27;[0m&amp#27;[32m on search bar to search for product name&amp#27;[0m    &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchName(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                          &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+3
+3
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate count of products appeared&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateCount()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate containing searched &amp#27;[0m&amp#27;[32m&amp#27;[1mnike&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateKeyword(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:27:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product sku&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](8)" classname="org.example.testRunner.Runners" time="6.115">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product sku   &amp#27;[90m# src/main/resources/features/F04_Search.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mSCI_FAITH&amp#27;[0m&amp#27;[32m on search bar to search for product sku&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchSku(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                           &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick on product appeared in search results&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickOnProduct()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate appeared product with searched &amp#27;[0m&amp#27;[32m&amp#27;[1mSCI_FAITH&amp#27;[0m             &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateSku(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62750
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:27:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:27:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product sku&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](9)" classname="org.example.testRunner.Runners" time="5.919">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product sku   &amp#27;[90m# src/main/resources/features/F04_Search.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mAPPLE_CAM&amp#27;[0m&amp#27;[32m on search bar to search for product sku&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchSku(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                           &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick on product appeared in search results&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickOnProduct()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate appeared product with searched &amp#27;[0m&amp#27;[32m&amp#27;[1mAPPLE_CAM&amp#27;[0m             &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateSku(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:27:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:27:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could search for product using product sku&quot;, &quot;F04_Search | user could search using product name &amp; sku&quot;](10)" classname="org.example.testRunner.Runners" time="7.61">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: user could search for product using product sku   &amp#27;[90m# src/main/resources/features/F04_Search.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser type &amp#27;[0m&amp#27;[32m&amp#27;[1mSF_PRO_11&amp#27;[0m&amp#27;[32m on search bar to search for product sku&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.searchSku(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick search button&amp#27;[0m                                           &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickSearchBtn()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick on product appeared in search results&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.clickOnProduct()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate appeared product with searched &amp#27;[0m&amp#27;[32m&amp#27;[1mSF_PRO_11&amp#27;[0m             &amp#27;[90m# org.example.stepDefs.D04_searchStepDef.validateSku(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53220
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:27:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:27:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could hover category &amp; select subcategory from it&quot;, &quot;F05_HoverCategories | user could hover and select categories &amp; subcategories&quot;](11)" classname="org.example.testRunner.Runners" time="5.618">
+    <system-out><![CDATA[
+@smoke
+Scenario: user could hover category & select subcategory from it &amp#27;[90m# src/main/resources/features/F05_HoverCategories.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser could hover on category list&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D05_hoverCategoriesStepDef.getHover()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on subcategory&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D05_hoverCategoriesStepDef.clickOnSelectedCategory()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate subcategory name on title page&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D05_hoverCategoriesStepDef.validateCategory()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:27:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:27:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user redirect to correct page of the first slider&quot;, &quot;F06_HomeSliders | user could redirect to correct URL&quot;](12)" classname="org.example.testRunner.Runners" time="6.867">
     <failure message="first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: first slider expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:8)
 ]]></failure>
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user redirect to correct page of the first slider                                 &amp#27;[90m# src/main/resources/features/F06_HomeSliders.feature:5&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on first control dot&amp#27;[0m                                                      &amp#27;[90m# org.example.stepDefs.D06_homeSlidersStepDef.clickFirstDot()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could click on first slider&amp#27;[0m                                                     &amp#27;[90m# org.example.stepDefs.D06_homeSlidersStepDef.clickFirstSlider()&amp#27;[0m
@@ -80,35 +303,32 @@ Scenario: user redirect to correct page of the first slider                     
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/nokia-lumia-1020" is correct on "first slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:8)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56726
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59248
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:32:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:27:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:32:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:27:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user redirect to correct page of the second slider&quot;, &quot;F06_HomeSliders | user could redirect to correct URL&quot;](2)" classname="org.example.testRunner.Runners" time="10.117">
+  <testcase name="runScenario[&quot;user redirect to correct page of the second slider&quot;, &quot;F06_HomeSliders | user could redirect to correct URL&quot;](13)" classname="org.example.testRunner.Runners" time="6.341">
     <failure message="second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: second slider expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:13)
 ]]></failure>
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user redirect to correct page of the second slider                         &amp#27;[90m# src/main/resources/features/F06_HomeSliders.feature:10&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on second control dot&amp#27;[0m                                              &amp#27;[90m# org.example.stepDefs.D06_homeSlidersStepDef.clickSecondDot()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could click on second slider&amp#27;[0m                                             &amp#27;[90m# org.example.stepDefs.D06_homeSlidersStepDef.clickSecondSlider()&amp#27;[0m
@@ -119,66 +339,66 @@ Scenario: user redirect to correct page of the second slider                    
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:38)
+	at org.example.stepDefs.D06_homeSlidersStepDef.validateSecondSlider(D06_homeSlidersStepDef.java:37)
 	at ✽.validate "https://demo.nopcommerce.com/iphone-6" is correct on "second slider"(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F06_HomeSliders.feature:13)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63746
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61911
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:32:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:32:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:27:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user opens facebook link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](3)" classname="org.example.testRunner.Runners" time="7.771">
+  <testcase name="runScenario[&quot;user opens facebook link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](14)" classname="org.example.testRunner.Runners" time="5.673">
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user opens facebook link                                 &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:5&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens facebook link&amp#27;[0m                                    &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.openFacebook()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://www.facebook.com/nopCommerce&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.validateFacebook(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52226
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56441
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:32:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:27:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:32:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:27:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user opens twitter link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](4)" classname="org.example.testRunner.Runners" time="9.528">
+  <testcase name="runScenario[&quot;user opens twitter link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](15)" classname="org.example.testRunner.Runners" time="8.714">
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user opens twitter link                             &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:9&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens twitter link&amp#27;[0m                                &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.openTwitter()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://twitter.com/nopCommerce&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.validateFacebook(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51762
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58973
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:33:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:27:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:33:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:27:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user opens rss link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](5)" classname="org.example.testRunner.Runners" time="7.827">
+  <testcase name="runScenario[&quot;user opens rss link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](16)" classname="org.example.testRunner.Runners" time="6.115">
     <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:38)
+	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:37)
 	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F07_FollowUs.feature:15)
 ]]></failure>
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user opens rss link                                                       &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:13&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens rss link&amp#27;[0m                                                          &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.openRss()&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31m"&amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://demo.nopcommerce.com/new-online-store-is-open&amp#27;[0m&amp#27;[31m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.validateFacebook(java.lang.String)&amp#27;[0m
@@ -188,34 +408,69 @@ Scenario: user opens rss link                                                   
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:38)
+	at org.example.stepDefs.D07_followUsStepDef.validateFacebook(D07_followUsStepDef.java:37)
 	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Yodawy/IdeaProjects/DemoNopCommerce/src/main/resources/features/F07_FollowUs.feature:15)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49991
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56897
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:33:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:28:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:33:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:28:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user opens youtube link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](6)" classname="org.example.testRunner.Runners" time="8.448">
+  <testcase name="runScenario[&quot;user opens youtube link&quot;, &quot;F07_FollowUs | users could open followUs links&quot;](17)" classname="org.example.testRunner.Runners" time="7.562">
     <system-out><![CDATA[
-@smoke1
+@smoke
 Scenario: user opens youtube link                                      &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:17&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens youtube link&amp#27;[0m                                         &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.openYoutube()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://www.youtube.com/user/nopCommerce&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D07_followUsStepDef.validateFacebook(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52081
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57722
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 3:33:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:28:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 23, 2022 3:33:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 23, 2022 9:28:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could add to wishlist&quot;, &quot;F08_Wishlist | users could add to wishlist and count&quot;](18)" classname="org.example.testRunner.Runners" time="4.629">
+    <system-out><![CDATA[
+@smoke
+Scenario: user could add to wishlist                 &amp#27;[90m# src/main/resources/features/F08_Wishlist.feature:5&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on wishlist button on product&amp#27;[0m      &amp#27;[90m# org.example.stepDefs.D08_wishlistStepDef.clickOnWishlistBTN()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate success message and background color&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D08_wishlistStepDef.validateSuccessMes()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51947
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:28:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:28:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could add to wishlist and check quantity of it&quot;, &quot;F08_Wishlist | users could add to wishlist and count&quot;](19)" classname="org.example.testRunner.Runners" time="4.953">
+    <system-out><![CDATA[
+@smoke
+Scenario: user could add to wishlist and check quantity of it &amp#27;[90m# src/main/resources/features/F08_Wishlist.feature:9&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on wishlist button on product&amp#27;[0m               &amp#27;[90m# org.example.stepDefs.D08_wishlistStepDef.clickOnWishlistBTN()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser open wishlist page&amp#27;[0m                                &amp#27;[90m# org.example.stepDefs.D08_wishlistStepDef.openWishlistPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate quantity is bigger than 0&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D08_wishlistStepDef.validateQty()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 23, 2022 9:28:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 23, 2022 9:28:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>

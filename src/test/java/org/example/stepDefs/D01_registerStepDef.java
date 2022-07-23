@@ -5,6 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P01_register;
+import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 
 public class D01_registerStepDef {
@@ -22,21 +23,31 @@ public class D01_registerStepDef {
     }
     @And("user enter first name \"(.*)\" and last name \"(.*)\"$")
     public void enterName(String firstName, String lastName){
-        reg.enterName(firstName, lastName);
+        reg.firstNameEle().clear();
+        reg.firstNameEle().sendKeys(firstName);
+        reg.lastNameEle().clear();
+        reg.lastNameEle().sendKeys(lastName);
     }
     @Then("user enter date of birth")
     public void enterBirthdate() throws InterruptedException {
-        reg.selectDay();
-        reg.selectMonth();
-        reg.selectYear();
+        WebElement dayList = reg.dayList();
+        reg.selectBirthDateList(dayList, "15");
+        WebElement monthList = reg.monthList();
+        reg.selectBirthDateList(monthList, "10");
+        WebElement yearList = reg.yearList();
+        reg.selectBirthDateList(yearList, "1997");
     }
     @And("user enter email field \"(.*)\"$")
     public void enterMail(String email){
-        reg.enterMail(email);
+        reg.emailEle().clear();
+        reg.emailEle().sendKeys(email);
     }
     @And("user fills Password fields \"(.*)\" \"(.*)\"$")
     public void enterPasswords(String password, String confirmPassword){
-        reg.enterPasswords(password, confirmPassword);
+        reg.passwordEle().clear();
+        reg.passwordEle().sendKeys(password);
+        reg.confirmPasswordEle().clear();
+        reg.confirmPasswordEle().sendKeys(confirmPassword);
     }
     @Then("user clicks on register button")
     public void clickRegisterBtn(){

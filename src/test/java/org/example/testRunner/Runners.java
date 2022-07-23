@@ -11,9 +11,8 @@ import io.cucumber.testng.CucumberOptions;
                 "json:target/cucumber.json",
                 "junit:target/cukes.xml",
                 "rerun:target/rerun.txt"},
-        tags = "@smoke1"
+        tags = "@smoke"
 )
-
 
 public class Runners extends AbstractTestNGCucumberTests {
 }

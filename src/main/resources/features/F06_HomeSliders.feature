@@ -1,4 +1,4 @@
-@smoke1
+@smoke
 
 Feature: F06_HomeSliders | user could redirect to correct URL
 

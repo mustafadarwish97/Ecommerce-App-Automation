@@ -37,14 +37,12 @@ public class D02_loginStepDef {
         soft.assertAll();
     }
     @Then("user could not login to the system")
-    public void doAssertFailer(){
+    public void doAssertFailed(){
         String actualResultColor = Color.fromString(log.failedMes().getCssValue("color")).asHex();
-
         SoftAssert soft = new SoftAssert();
         soft.assertEquals(log.failedMes().getText().contains("Login was unsuccessful"), true, "Failed Message Assertion ");
         soft.assertEquals(actualResultColor.contains("#e4434b"), true,"Color Assertion 1");
         soft.assertEquals(actualResultColor, "#e4434b","Color Assertion 2");
         soft.assertAll();
-
     }
 }

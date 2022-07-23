@@ -43,26 +43,17 @@ public class D04_searchStepDef {
         soft.assertEquals(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/search?q="),true, "URL Assertion");
         soft.assertAll();
     }
-
     @Given("^user type (.*) on search bar to search for product sku$")
     public void searchSku(String keyword){
         search.searchBarEle().sendKeys(keyword);
     }
-
     @Then("click on product appeared in search results")
     public void clickOnProduct(){
         search.clickOnProduct().click();
     }
-
     @And("^validate appeared product with searched (.*)$")
     public void validateSku(String keyword){
-        String actualKeyword = search.skuProduct().getText();
+        String actualKeyword = search.getProductsSku().getText();
         Assert.assertEquals(actualKeyword.contains(keyword), true, "Sku Assertion");
-
     }
-
-
-
-
-
 }

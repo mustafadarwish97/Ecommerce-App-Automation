@@ -7,9 +7,7 @@ import org.example.pages.P03_homePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-
 import java.util.List;
-
 
 public class D05_hoverCategoriesStepDef {
 
@@ -33,6 +31,4 @@ public class D05_hoverCategoriesStepDef {
     public void validateCategory() {
         Assert.assertEquals(Hooks.driver.getTitle().contains(expected),true,"Title Assertion");
     }
-
-
 }

@@ -1,4 +1,4 @@
-@smoke1
+@smoke
 
 Feature: F07_FollowUs | users could open followUs links
 

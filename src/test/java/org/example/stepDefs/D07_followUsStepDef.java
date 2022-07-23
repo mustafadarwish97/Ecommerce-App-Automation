@@ -4,7 +4,6 @@ import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import org.example.pages.P03_homePage;
 import org.testng.Assert;
-
 import java.util.ArrayList;
 
 public class D07_followUsStepDef {

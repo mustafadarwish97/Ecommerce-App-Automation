@@ -6,7 +6,6 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import org.example.pages.P03_homePage;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class D06_homeSlidersStepDef {
 
@@ -15,7 +14,7 @@ public class D06_homeSlidersStepDef {
 
     @When("user click on first control dot")
     public void clickFirstDot() throws InterruptedException {
-        js.executeScript("arguments[0].click();", slider.controlNav().get(0));
+        js.executeScript("arguments[0].click();", slider.controlNavSlider().get(0));
         Thread.sleep(1000);
     }
     @Then("user could click on first slider")
@@ -25,7 +24,7 @@ public class D06_homeSlidersStepDef {
     }
     @When("user click on second control dot")
     public void clickSecondDot() throws InterruptedException {
-        js.executeScript("arguments[0].click();",slider.controlNav().get(1));
+        js.executeScript("arguments[0].click();",slider.controlNavSlider().get(1));
         Thread.sleep(1000);
     }
     @Then("user could click on second slider")
@@ -37,5 +36,4 @@ public class D06_homeSlidersStepDef {
     public void validateSecondSlider(String expectedLink, String message) {
         Assert.assertEquals(Hooks.driver.getCurrentUrl(), expectedLink, message);
     }
-
 }
